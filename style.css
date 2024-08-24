@@ -17,7 +17,9 @@ span{
     align-items: center;
     padding: 15px 30px;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
     /* width: 1728px; */
     /* height: 86px; */
 }
@@ -53,11 +55,14 @@ span{
     font-size: 18px;
 }
 .jeff-babu{
-    max-width: 100%;
+    /* max-width: 100%; */
     /* width: 200px;
     height: 200px; */
     /* margin-right:-50rem; */
     display: flex;
+    width: 400px;
+    margin: 10px;
+    padding: 30px;
 }
 .login-button{
     background-color: #FCAF02;
